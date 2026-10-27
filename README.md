@@ -16,7 +16,7 @@
 
 *Privacy-first, offline-first Android antivirus auditor jo har app ko scan karta hai, batata hai kaun kya kar raha hai, aur nayi threat aate hi alert karta hai.*
 
-[Features](#-features) • [Architecture](#️-architecture) • [Risk Engine](#-risk-engine--scoring-system) • [Installation](#-installation) • [Roadmap](#️-roadmap)
+[Features](#-features) • [Architecture](#️-architecture) • [Risk Engine](#-risk-engine--scoring-system) • [Installation](#-installation) • [Build APK](docs/BUILD.md) • [Roadmap](#️-roadmap)
 
 ---
 
@@ -302,6 +302,14 @@ val isHidden = pm.getLaunchIntentForPackage(packageName) == null && !isSystemApp
 
 ### Quick Start
 
+### ☁️ Fastest: GitHub Actions (no Android Studio needed)
+Push karo → GitHub automatically APK banata hai. [Full steps → docs/BUILD.md](docs/BUILD.md)
+```bash
+git add . && git commit -m "build" && git push origin arena/e75c86fe-antivirus
+# → GitHub → Actions → Build ShieldScan APK → Artifacts → app-debug.apk download
+```
+
+### 💻 Local Build (Android Studio)
 ```bash
 # 1. Clone
 git clone https://github.com/poxsky/antivirus.git
