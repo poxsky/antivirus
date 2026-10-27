@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">ShieldScan</string>
-    <string name="scan_now">Scan Now</string>
-    <string name="view_all_apps">View All Apps</string>
-    <string name="setup_title">Setup &amp; Permissions</string>
-</resources>
