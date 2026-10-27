@@ -1,4 +1,0 @@
-# Copy to local.properties and fill
-sdk.dir=/Users/you/Library/Android/sdk
-# Optional VirusTotal API key (hash-only lookup, never upload APK)
-# VT_API_KEY=your_api_key_here
